@@ -56,7 +56,7 @@ h3{
 
 #home{
 background: url(img/thom-holmes-BW4bH1pEaE0-unsplash.jpg) no-repeat  ;
-background-position: right center;
+background-position: center center;
 background-size:cover;
 height:70vh;
 }
@@ -114,10 +114,10 @@ height:70vh;
 
 
 
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
     #home h1{
         font-size:1.5em;
-        transform:translateY(-30px);
+        transform:translateY(-80px);
         margin-left:.5em;
     }
     #search .container{
