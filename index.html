@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <title>Viaje+</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-info" href="#">
+          Viaje <span class="logo-detail">+</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ms-md-5">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-md-5">
+              <a class="nav-link" href="#">Hotéis</a>
+            </li>
+            <li class="nav-item ms-md-5">
+              <a class="nav-link" href="#">Pacotes</a>
+            </li>
+            <li class="nav-item dropdown ms-md-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Mais
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Seguro Viagem</a></li>
+                <li><a class="dropdown-item" href="#">Vale-Viagem</a></li>
+                <li><a class="dropdown-item" href="#">Parcerias</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="container d-flex align-items-center">     
+        <div class="row">
+          <div class="col-md-7">
+            <h1>Todos os tipos de hospedagem para sua viagem!</h1>
+          </div>
+        </div>      
+    </div>
+  </section>
+
+<!----------SEARCH--------->
+  <section id="search" class="d-flex justify-content-center ">
+    <div class="container ">
+      <form class="row px-2 row-cols-md-3 g-2 gy-md-3 align-items-center justify-content-between py-2">
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">Para onde ?</label>
+          <div class="input-group">
+            <div class="input-group-text">
+              <ion-icon name="airplane-outline"></ion-icon>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Para onde vai?">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">Escolha as datas</label>
+          <div class="input-group">
+            <div class="input-group-text">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <input type="date" class="form-control" id="inlineFormInputGroupUsername" placeholder="Escolha as datas">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">Quantidade de pessoas</label>
+          <div class="input-group">
+            <div class="input-group-text">
+              <ion-icon name="person-add-outline"></ion-icon>
+            </div>
+            <input type="number" class="form-control" id="inlineFormInputGroupUsername"
+              placeholder="Quantidade de pessoas">
+          </div>
+        </div>
+
+        <div class="offset-5 col-6">
+          <button type="submit" class="btn">Buscar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+<!----------CARDS--------->
+  <section class="cards-a">
+    <div class="container">
+      <div class="row row-cols-md-auto g-2 g-sm-4 py-5">
+        <div class="col-12 col-md-7">
+          <div class="row row-cols-1 g-sm-2 g-5">
+            <div class="col-12 col-sm-6">
+              <div class="card h-100">
+                <img src="img/imagem1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Argentina</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, ullam?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="card h-100">
+                <img src="img/imagem2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nepal</h5>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, cumque!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 align-self-center order-first order-md-last ">
+          <h2>Conheça os pacotes de viagens da <span class="text-info">Viaje</span><span class="logo-detail">+</span>!
+          </h2>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="cards-b">
+    <div class="container">
+      <div class="row row-cols-md-auto g-5 py-5">
+
+        <div class="col-12 col-md-5 align-self-center">
+          <h2>Qual seja o destino, com a <span class="text-info">Viaje</span><span class="logo-detail">+</span> você
+            terá a melhor experiência!</h2>
+        </div>
+
+
+        <div class="col-12 col-md-7">
+          <div class="row row-cols-1 g-sm-2 g-5">
+
+            <div class="col-12 col-sm-6">
+              <div class="card h-100">
+                <img src="img/imagem5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Macedônia</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, adipisci.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="card h-100">
+                <img src="img/imagem1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chile</h5>
+                  <p class="card-text">
+                    <ion-icon name="airplane-outline"></ion-icon>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, vitae.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mt-3 mt-md-0">
+          <h5>Viaje <span class="logo-detail">+</span></h5>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Trabalhe conosco</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sala de imprensa</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mt-3 mt-md-0">
+          <h5>Central de Atendimento</h5>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Precisa de ajuda?</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Central de relacionamento</a>
+            </li>
+            <li class="nav-item">
+              11 40044 4253
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 justify-content-end mt-3 mt-md-0">
+          <h5>Redes Sociais</h5>
+          <ul class="navbar-nav flex-row g-5 justify-content-between ">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <ion-icon size="large" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <ion-icon size="large" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <ion-icon size="large" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <ion-icon size="large" name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

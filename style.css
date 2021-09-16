@@ -1,0 +1,136 @@
+/*-----GERAL-----*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color:#ffffff;
+    font-size:3.5em;
+    font-family: 'Fjalla One', sans-serif;
+}
+h2{
+    color:black;
+    font-size:2.5em;
+    font-family: 'Fjalla One', sans-serif;
+}
+h5{
+    font-family: 'Fjalla One', sans-serif;
+}
+h3{
+    text-transform: uppercase;
+    
+}
+.navbar-nav .nav-link{
+    color:rgb(223, 223, 223);  
+    
+}
+.logo-detail{
+   
+    color:rgb(251, 200, 35);    
+}
+
+
+/*--------HEADER---------*/
+#header .navbar{
+    background-color: rgba(44, 87, 132,0.85);
+}
+#header .navbar-brand{
+    font-size:2em;
+}
+#header .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -50px;
+    margin-top: .125rem;
+    background: rgba(44, 87, 132,0.85);    
+}
+#header .dropdown-item{
+    color:rgb(255, 255, 255);    
+}
+#header .navbar .nav-link:hover, #header .dropdown-item:hover{
+    color:rgb(251, 200, 35);  
+    background-color: transparent;
+}
+
+/*-----------------CONTEÚDO-----------------*/
+
+/*----SECTION HOME---------*/
+
+#home{
+background: url(img/thom-holmes-BW4bH1pEaE0-unsplash.jpg) no-repeat  ;
+background-position: right center;
+background-size:cover;
+height:70vh;
+}
+
+#home .container{
+    height:100%;
+}
+
+/*----SEARCH---------*/
+
+#search{
+    background-color: rgb(44, 87, 132);
+}
+#search form{
+   background-color: #fff;
+    border-radius:5px 5px 0 0;  
+}
+#search .btn{
+    background-color:rgb(251, 200, 35);
+    color:#ffffff;    
+}
+#search form{
+    background-color: rgba(255,255,255,0.8)
+}
+
+/*----CARDS---------*/
+
+.card{
+    border:none;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+}
+.cards-a{
+    background-color: rgb(44, 87, 132);
+}
+
+/*----FOOTER---------*/
+
+#footer{
+    background-color: rgb(44, 87, 132);
+    color:white;
+    padding:1em 0;
+}
+
+#footer .nav-link{
+    padding:5px 0;
+    font-size:0.8em;   
+}
+#footer .nav-link:hover{
+    color:rgb(251, 200, 35);  
+    background-color: rgba(44, 87, 132,0.85);
+}
+
+
+/*----MEDIA QUERY---------*/
+
+
+
+@media (max-width: 768px) { 
+    #home h1{
+        font-size:1.5em;
+        transform:translateY(-30px);
+        margin-left:.5em;
+    }
+    #search .container{
+        position:absolute;
+        top:150px;  
+    }
+    #search form{
+        background-color:transparent;
+        justify-content:end;
+    }
+    #search form input{        
+        background-color: rgba(255, 255, 255, 0.5);
+        color:black;        
+    }   
+ }
+
